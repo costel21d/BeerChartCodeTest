@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView, useWindowDimensions } from "react-native-web";
 
 const App = () => {
-  const { height, width } = useWindowDimensions();
+  const { height } = useWindowDimensions();
   const [workData, setWorkData] = useState([]);
 
   useEffect(() => {
