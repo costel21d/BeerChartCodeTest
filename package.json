@@ -10,7 +10,9 @@
     "react-native-web": "0.18.*",
     "react-scripts": "3.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.21"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

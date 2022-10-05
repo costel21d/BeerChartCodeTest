@@ -15,12 +15,14 @@ const App = () => {
   const allIntervals = workData.map((item) => Math.floor(item));
   const allUniqueIntervals = [...new Set(allIntervals)];
 
-  const chartData = allUniqueIntervals.map((item) => {
-    return {
-      key: item,
-      count: allIntervals.filter((el) => el === item).length,
-    };
-  });
+  const chartData = allUniqueIntervals
+    .map((item) => {
+      return {
+        key: item,
+        count: allIntervals.filter((el) => el === item).length,
+      };
+    })
+    .sort((a, b) => a.key - b.key);
 
   useEffect(() => {
     console.log(JSON.stringify(chartData, null, 2));
