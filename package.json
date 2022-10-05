@@ -1,0 +1,20 @@
+{
+  "name": "beers-chart-by-range",
+  "version": "1.0.0",
+  "description": "Count all the beers and create ranges from 1 to 2, 3 to 4, and so on.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.*",
+    "react-dom": "17.0.*",
+    "react-native-web": "0.18.*",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
